@@ -1,4 +1,4 @@
-FROM nginx:1.9.3
+FROM nginx:1.9.10
 
 COPY etc /etc/nginx
 COPY var /var/www
